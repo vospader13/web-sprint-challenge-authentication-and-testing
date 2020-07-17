@@ -26,11 +26,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
 
+The purpose of using session is that it provide a way to persist data across requests. We can use them to save authentication information and wouldn’t have to reenter credentials on every new request the client makes to the server. Tokens are another way to authenticate the user. 
+
 2. What does `bcrypt` do to help us store passwords in a secure manner.
+
+Bcrypt has password hashing function, implements salting both manually and automatically, and accumulative hashing rounds. Bcrypt has an algorithm that hashes the information multiple times to make it difficult for hackers.
 
 3. How are unit tests different from integration and end-to-end testing.
 
+Unit tests test one aspect of the code where End to End testing allows for testing the project as a whole. 
+
 4. How _Test Driven Development_ changes the way we write applications and tests.
+
+We write the test first with the intent of it starting out broken then write the code to make the test pass. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
